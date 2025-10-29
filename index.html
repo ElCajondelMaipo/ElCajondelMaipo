@@ -33,22 +33,26 @@
       text-align: center;
       background-color: #c9e1ec;
       padding: 20px;
-      font-size: 1.2em;
       height: 20px;
     }
 
+    /* Fondo nuevo detrás de los paquetes */
     .container {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 20px;
-      padding: 30px;
+      padding: 60px 30px;
+      background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/f5/f8/67/photo1jpg.jpg?w=900&h=500&s=1');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
     }
 
     .card {
-      background: white;
+      background: rgba(255, 255, 255, 0.95);
       border-radius: 15px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
       overflow: hidden;
       width: 300px;
       cursor: pointer;
@@ -114,6 +118,7 @@
       .container {
         flex-direction: column;
         align-items: center;
+        background-attachment: scroll;
       }
 
       .card {
@@ -181,3 +186,4 @@
 
 </body>
 </html>
+
